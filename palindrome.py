@@ -30,7 +30,9 @@ import sys
 class Solution:
     # Write code below to complete prompt
     def isPalindrome(self, s):
-        return s == s[::-1]
+        if len(s) >=6:
+            return s == s[::-1]
+        return False
         # TODO: Write code below to return a bool with the solution to the prompt
         
 
